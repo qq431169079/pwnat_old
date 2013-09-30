@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
 
 void usage(char *progname)
 {
-    printf("usage: %s <-s | -c> <args>\n", progname);
+    printf("usage: %s [<option>]... <-s | -c> <args>\n", progname);
     printf("  -c    client mode (default)\n"
            "        <args>: [local ip] <local port> <proxy host> [proxy port (def:2222)] <remote host> <remote port>\n"
            "  -s    server mode\n"
